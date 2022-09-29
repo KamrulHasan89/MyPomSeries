@@ -1,0 +1,5 @@
+com\qa\mypom\test\AccountsPageTest.class
+com\qa\mypom\test\LoginPageTest.class
+com\qa\mypom\base\BaseTest.class
+com\qa\mypom\test\ProductSearchPageTest.class
+com\qa\mypom\test\RegisterTest.class

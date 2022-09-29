@@ -1,0 +1,9 @@
+com\qa\mypom\pages\AccountPage.class
+com\qa\mypom\eleutils\ElementUtil.class
+com\qa\mypom\pages\ProductInfoPage.class
+com\qa\mypom\pages\LoginPage.class
+com\qa\mypom\factory\DriverFactory.class
+com\qa\mypom\factory\OptionsManager.class
+com\qa\mypom\pages\SearchResultsPage.class
+com\qa\mypom\pages\RegisterPage.class
+com\qa\mypom\constants\AppConstants.class

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" My Pom Test Regression Suite" thread-count="4" parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+		     class-name="com.qa.mypom.listeners.TestAllureListener" />
+	</listeners>
+
+
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.qa.mypom.test.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Accounts Page Test">
+		<classes>
+			<class name="com.qa.mypom.test.AccountsPageTest" />
+		</classes>
+	</test>
+
+	<test name="Product Search Page Test">
+		<classes>
+			<class name="com.qa.mypom.test.ProductSearchPageTest" />
+		</classes>
+	</test>
+
+
+</suite>
